@@ -1,0 +1,873 @@
+@import url('https://fonts.googleapis.com/css2?family=Ruda:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sail&display=swap');
+
+body{
+    width: 100%;
+    width: auto;
+    min-height:100vh;
+    background-color: white;
+}
+
+/* -------------------------------------------------------------------------------------------------- */
+
+@media screen and (min-width: 400px) and (max-width: 1366px) {
+
+.header{
+    position: absolute;
+    width: 100%;
+    height: 187px;
+    left: 0px;
+    top: 0px;
+    opacity: 100%;
+
+    background: rgba(160, 95, 52, 0.29);
+}
+
+.retamarrom{
+    position: absolute;
+    width: 594px;
+    height: 17px;
+    left: 0px;
+    top: 87px;
+    
+    background: #42210B;
+    border-radius: 0px 6px 6px 0px;
+}
+
+.logo{
+    position: relative;
+    width: 150px;
+    height: 170px;
+    left: 600px;
+    top: 10px;
+    object-fit: cover;
+}
+
+.retaamarela{
+    position: absolute;
+    width: 594px;
+    height: 17px;
+    left: 755px;
+    top: 87px;
+    
+    background: #DAA520;
+    border-radius: 6px 0px 0px 6px;
+}
+
+.barrapesquisa{
+    position: absolute;
+    width: 478px;
+    height: 31px;
+    left: 60px;
+    top: 149px;
+    
+    background: rgba(145, 145, 145, 0.322);
+    border-radius: 10px;
+    border-style: hidden;
+
+    font-family: Ruda;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.bProdutos{
+    position: absolute;
+    width: 81px;
+    height: 18px;
+    left: 830px;
+    top: 159px;
+    
+    font-family: Ruda;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+    
+    color: #42210B;
+}
+
+.bContato{
+    position: absolute;
+    width: 68px;
+    height: 23px;
+    left: 981px;
+    top: 154px;
+    
+    font-family: Ruda;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    text-decoration: none;
+
+    
+    color: #42210B;
+}
+
+.bQuemsomos{
+    position: absolute;
+    width: 113px;
+    height: 23px;
+    left: 1118px;
+    top: 154px;
+    
+    font-family: Ruda;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    text-decoration: none;
+    
+    color: #42210B;
+}
+
+.bag{
+    position: absolute;
+    width: 35px;
+    height: 37px;
+    left: 1290px;
+    top: 140px;
+}
+
+.retadivisoria{
+    position: absolute;
+    width: 1200px;
+    height: 0px;
+    left: 75px;
+    top: 187px;
+
+    border: 2px solid #42210B;
+}
+
+/* Body */
+
+.tituloVisao{
+    position: absolute;
+    width: 92px;
+    height: 42px;
+    left: 217px;
+    top: 180px;
+    
+    font-family: Sail;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    
+    color: #42210B;
+    
+}
+
+.imagem1{
+    position: absolute;
+    width: 357px;
+    height: 357px;
+    left: 85px;
+    top: 257px;
+    object-fit: cover;
+
+    border-radius: 10px;
+}
+
+.txtVisao{
+    position: absolute;
+    width: 357px;
+    height: 90px;
+    left: 85px;
+    top: 629px;
+    
+    font-family: Ruda;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    
+    color: #42210B;
+}
+
+.retadivisoria2{
+    position: absolute;
+    width: 510px;
+    height: 0px;
+    left: 221px;
+    top: 512px;
+
+    border: 2px solid #42210B;
+    transform: rotate(90deg);
+}
+
+.tituloMissao{
+    position: absolute;
+    width: 117px;
+    height: 42px;
+    left: 633px;
+    top: 180px;
+    
+    font-family: Sail;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    
+    color: #42210B;
+}
+
+.imagem2{
+    position: absolute;
+    width: 357px;
+    height: 357px;
+    left: 513px;
+    top: 257px;
+    object-fit: cover;
+
+    border-radius: 10px;
+}
+
+.txtMissao{
+    position: absolute;
+    width: 357px;
+    height: 138px;
+    left: 513px;
+    top: 629px;
+    
+    font-family: Ruda;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    
+    color: #42210B;
+}
+
+.retadivisoria3{
+    position: absolute;
+    width: 510px;
+    height: 0px;
+    left: 650px;
+    top: 512px;
+
+    border: 2px solid #42210B;
+    transform: rotate(90deg);
+}
+
+.tituloValores{
+    position: absolute;
+    width: 122px;
+    height: 42px;
+    left: 1054px;
+    top: 180px;
+    
+    font-family: Sail;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    
+    color: #42210B;
+}
+
+.imagem3{
+    position: absolute;
+    width: 357px;
+    height: 357px;
+    left: 941px;
+    top: 257px;
+    object-fit: cover;
+
+    border-radius: 10px;
+}
+
+.txtValores{
+    position: absolute;
+    width: 357px;
+    height: 90px;
+    left: 941px;
+    top: 629px;
+    
+    font-family: Ruda;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    
+    color: #42210B;
+}
+
+/* BODY */
+
+/* HEADER-LEFT */
+
+.retadivisoriarod{
+    position: absolute;
+    width: 1200px;
+    height: 0px;
+    left: 75px;
+    top: 847px;
+    
+    border: 2px solid #42210B;
+}
+
+.header-left {
+    position: absolute;
+    width: 100%;
+    height: 173px;
+    left: 0px;
+    top: 851px;
+    
+    background: #AAAAAA;
+    margin-right: 10px;
+}
+
+.legal{
+    position: absolute;
+    width: 251px;
+    height: 126px;
+    left: 110px;
+    top: 874px;
+
+    font-family: Ruda;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+    color: #000000;
+   
+}
+
+.ajuda{
+    position: absolute;
+    width: 113px;
+    height: 59px;
+    left: 503px;
+    top: 874px;
+
+    font-family: Ruda;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.copyright{
+    position: absolute;
+    width: 410px;
+    height: 14px;
+    left: 503px;
+    top: 976px;
+
+    font-family: Ruda;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+    color: rgba(0, 0, 0, 0.52);
+}
+
+.redessociais{
+    position: absolute;
+    width: 101px;
+    height: 29px;
+    left: 1100px;
+    top: 903px;
+    
+    font-family: Ruda;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    
+    color: #000000;
+}
+
+.imgface{
+    position: absolute;
+    width: 70px;
+    height: 58px;
+    left: 1078px;
+    top: 938px;
+    object-fit: cover;
+    opacity: 60%;
+}
+
+.imginsta{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1179px;
+    top: 942px;
+    object-fit: cover;
+    opacity: 60%;
+}
+
+.imgtele{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1260px;
+    top: 942px;
+    object-fit: cover;
+    opacity: 60%;
+}
+}
+
+/* -------------------------------------------------------------------------------------------------- */
+
+
+@media  screen and (min-width: 1367px){
+    
+    .header{
+        position: absolute;
+        width: 100%;
+        height: 187px;
+        left: 0px;
+        top: 0px;
+        opacity: 100%;
+    
+        background: rgba(160, 95, 52, 0.29);
+    }
+    
+    .retamarrom{
+        position: absolute;
+        width: 695px;
+        height: 17px;
+        left: 0px;
+        top: 87px;
+        border-radius: none;
+     
+        background: #42210B;
+        border-radius: 0px 6px 6px 0px;
+    }
+    
+    .logo{
+        position: absolute;
+        width: 150px;
+        height: 170px;
+        left: 720px;
+        top: 10px;
+        object-fit: cover;
+    }
+    
+    .retaamarela{
+        position: absolute;
+        width: 695px;
+        height: 17px;
+        left: 888px;
+        top: 87px;
+        
+        background: #DAA520;
+        border-radius: 6px 0px 0px 6px;
+    }
+    
+    .barrapesquisa{
+        position: absolute;
+        width: 478px;
+        height: 31px;
+        left: 100px;
+        top: 149px;
+        
+        background: rgba(145, 145, 145, 0.322);
+        border-radius: 10px;
+        border-style: hidden;
+    
+        font-family: Ruda;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+    }
+    
+    .bProdutos{
+        position: absolute;
+        width: 81px;
+        height: 18px;
+        left: 1000px;
+        top: 157px;
+        
+        font-family: Ruda;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+    
+        
+        color: #42210B;
+    }
+    
+    .bContato{
+        position: absolute;
+        width: 68px;
+        height: 23px;
+        left: 1151px;
+        top: 154px;
+        
+        font-family: Ruda;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+        text-decoration: none;
+    
+        
+        color: #42210B;
+    }
+    
+    .bQuemsomos{
+        position: absolute;
+        width: 113px;
+        height: 23px;
+        left: 1288px;
+        top: 154px;
+        
+        font-family: Ruda;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+        text-decoration: none;
+        
+        color: #42210B;
+    }
+    
+    .bag{
+        position: absolute;
+        width: 35px;
+        height: 37px;
+        left: 1460px;
+        top: 140px;
+    }
+    
+    .retadivisoria{
+        position: absolute;
+        width: 1430px;
+        height: 0px;
+        left: 75px;
+        top: 187px;
+    
+        border: 2px solid #42210B;
+    }
+    
+    /* Body */
+    
+    .tituloVisao{
+        position: absolute;
+        width: 92px;
+        height: 42px;
+        left: 217px;
+        top: 180px;
+        
+        font-family: Sail;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 42px;
+        
+        color: #42210B;
+        
+    }
+    
+    .imagem1{
+        position: absolute;
+        width: 357px;
+        height: 357px;
+        left: 85px;
+        top: 257px;
+        object-fit: cover;
+    
+        border-radius: 10px;
+    }
+    
+    .txtVisao{
+        position: absolute;
+        width: 357px;
+        height: 90px;
+        left: 85px;
+        top: 629px;
+        
+        font-family: Ruda;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 30px;
+        text-align: center;
+        
+        color: #42210B;
+    }
+    
+    .retadivisoria2{
+        position: absolute;
+        width: 510px;
+        height: 0px;
+        left: 270px;
+        top: 512px;
+    
+        border: 2px solid #42210B;
+        transform: rotate(90deg);
+    }
+    
+    .tituloMissao{
+        position: absolute;
+        width: 117px;
+        height: 42px;
+        left: 730px;
+        top: 180px;
+        
+        font-family: Sail;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 42px;
+        
+        color: #42210B;
+    }
+    
+    .imagem2{
+        position: absolute;
+        width: 357px;
+        height: 357px;
+        left: 610px;
+        top: 257px;
+        object-fit: cover;
+    
+        border-radius: 10px;
+    }
+    
+    .txtMissao{
+        position: absolute;
+        width: 357px;
+        height: 138px;
+        left: 610px;
+        top: 629px;
+        
+        font-family: Ruda;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 30px;
+        text-align: center;
+        
+        color: #42210B;
+    }
+    
+    .retadivisoria3{
+        position: absolute;
+        width: 510px;
+        height: 0px;
+        left: 800px;
+        top: 512px;
+    
+        border: 2px solid #42210B;
+        transform: rotate(90deg);
+    }
+    
+    .tituloValores{
+        position: absolute;
+        width: 122px;
+        height: 42px;
+        left: 1250px;
+        top: 180px;
+        
+        font-family: Sail;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 42px;
+        
+        color: #42210B;
+    }
+    
+    .imagem3{
+        position: absolute;
+        width: 357px;
+        height: 357px;
+        left: 1138px;
+        top: 257px;
+        object-fit: cover;
+    
+        border-radius: 10px;
+    }
+    
+    .txtValores{
+        position: absolute;
+        width: 357px;
+        height: 90px;
+        left: 1140px;
+        top: 629px;
+        
+        font-family: Ruda;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 30px;
+        text-align: center;
+        
+        color: #42210B;
+    }
+    
+    /* BODY */
+    
+    /* HEADER-LEFT */
+    
+    .retadivisoriarod{
+        position: absolute;
+        width: 1430px;
+        height: 0px;
+        left: 75px;
+        top: 847px;
+        
+        border: 2px solid #42210B;
+    }
+    
+    .header-left {
+        position: absolute;
+        width: 100%;
+        height: 173px;
+        left: 0px;
+        top: 851px;
+        
+        background: #AAAAAA;
+        margin-right: 10px;
+    }
+    
+    .legal{
+        position: absolute;
+        width: 251px;
+        height: 126px;
+        left: 160px;
+        top: 874px;
+    
+        font-family: Ruda;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+    
+        color: #000000;
+       
+    }
+    
+    .ajuda{
+        position: absolute;
+        width: 113px;
+        height: 59px;
+        left: 553px;
+        top: 874px;
+    
+        font-family: Ruda;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+    
+        color: #000000;
+    }
+    
+    .copyright{
+        position: absolute;
+        width: 410px;
+        height: 14px;
+        left: 553px;
+        top: 976px;
+    
+        font-family: Ruda;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+    
+        color: rgba(0, 0, 0, 0.52);
+    }
+    
+    .redessociais{
+        position: absolute;
+        width: 101px;
+        height: 29px;
+        left: 1150px;
+        top: 903px;
+        
+        font-family: Ruda;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 18px;
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+        
+        color: #000000;
+    }
+    
+    .imgface{
+        position: absolute;
+        width: 70px;
+        height: 58px;
+        left: 1128px;
+        top: 938px;
+        object-fit: cover;
+        opacity: 60%;
+    }
+    
+    .imginsta{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        left: 1229px;
+        top: 942px;
+        object-fit: cover;
+        opacity: 60%;
+    }
+    
+    .imgtele{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        left: 1310px;
+        top: 942px;
+        object-fit: cover;
+        opacity: 60%;
+    }
+}
+
+
+
+
+
+
+
+

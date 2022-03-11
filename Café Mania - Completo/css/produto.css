@@ -1,0 +1,964 @@
+@import url('https://fonts.googleapis.com/css2?family=Ruda:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sail&display=swap');
+
+body{
+    width: 100%;
+    width: auto;
+    min-height:100vh;
+    background-color: white;
+}
+
+/* -------------------------------------------------------------------------------------------------- */
+
+@media screen and (min-width: 400px) and (max-width: 1366px) {
+.header{
+    position: absolute;
+    width: 100%;
+    height: 187px;
+    left: 0px;
+    top: 0px;
+    opacity: 100%;
+
+    background: rgba(160, 95, 52, 0.29);
+}
+
+.retamarrom{
+    position: absolute;
+    width: 109px;
+    height: 17px;
+    left: 0px;
+    top: 87px;
+    
+    background: #42210B;
+    border-radius: 0px 6px 6px 0px;
+}
+
+.logo{
+    position: relative;
+    width: 150px;
+    height: 170px;
+    left: 109px;
+    top: 10px;
+    object-fit: cover;
+}
+
+.retaamarela{
+    position: absolute;
+    width: 1081px;
+    height: 17px;
+    left: 268px;
+    top: 87px;
+    
+    background: #DAA520;
+    border-radius: 6px 0px 0px 6px;
+}
+
+.barrapesquisa{
+    position: absolute;
+    width: 478px;
+    height: 31px;
+    left: 321px;
+    top: 149px;
+    
+    background: rgba(145, 145, 145, 0.322);
+    border-radius: 10px;
+    border-style: hidden;
+
+    font-family: Ruda;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.bProdutos{
+    position: absolute;
+    width: 81px;
+    height: 18px;
+    left: 830px;
+    top: 159px;
+    
+    font-family: Ruda;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+    
+    color: #42210B;
+}
+
+.bContato{
+    position: absolute;
+    width: 68px;
+    height: 23px;
+    left: 981px;
+    top: 154px;
+    
+    font-family: Ruda;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    text-decoration: none;
+
+    
+    color: #42210B;
+}
+
+.bQuemsomos{
+    position: absolute;
+    width: 113px;
+    height: 23px;
+    left: 1118px;
+    top: 154px;
+    
+    font-family: Ruda;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    text-decoration: none;
+    
+    color: #42210B;
+}
+
+.bag{
+    position: absolute;
+    width: 35px;
+    height: 37px;
+    left: 1290px;
+    top: 140px;
+}
+
+.retadivisoria{
+    position: absolute;
+    width: 1200px;
+    height: 0px;
+    left: 75px;
+    top: 187px;
+
+    border: 2px solid #42210B;
+}
+
+/* BODY */
+.nossocardapio{
+    position: absolute;
+    width: 484px;
+    height: 83px;
+    left: 430px;
+    top: 205px;
+    
+    font-family: Sail;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 83px;
+
+    color: #C81912;
+    
+}
+
+.card{
+    position: absolute;
+    left: 105px;
+    
+}
+
+.iproduto{
+    position: relative;
+    width: 175px;
+    height: 169px;
+    left: 13px;
+    top: 14px;
+    object-fit: cover;
+
+    border-radius: 10px;
+}
+
+.tit{
+    position: absolute;
+    width: 391px;
+    height: 22px;
+    left: 200px;
+    top: 0px;
+
+
+    font-family: Ruda;
+    font-style: bold;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #42210B;
+
+}
+
+.infop{
+    position: absolute;
+    width: 402px;
+    height: 166px;
+    left: 200px;
+    top: 7px;
+
+    font-family: Ruda;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #42210B;
+}
+
+.preco{
+    position: absolute;
+    width: 76px;
+    height: 22px;
+    left: 200px;
+    top: 145px;
+
+    font-family: Ruda;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #42210B;
+}
+
+.produto1{
+    position: absolute;
+    width: 608px;
+    height: 198px;
+    left: -50px;
+    top: 307px;
+
+    border: 1px solid rgba(66, 33, 11, 0.2);
+    border-radius: 20px;
+}
+
+.produto1:hover{
+    border: 2px groove rgb(0, 0, 0); /* Muda a cor da borda */
+}
+
+.produto2{
+    position: absolute;
+    width: 608px;
+    height: 198px;
+    left: -50px;
+    top: 519px;
+
+    border: 1px solid rgba(66, 33, 11, 0.2);
+    border-radius: 20px;
+}
+
+.produto2:hover{
+    border: 2px groove rgb(0, 0, 0); /* Muda a cor da borda */
+}
+
+.produto3{
+    position: absolute;
+    width: 608px;
+    height: 198px;
+    left: -50px;
+    top: 730px;
+    
+    border: 1px solid rgba(66, 33, 11, 0.2);
+    border-radius: 20px;
+}
+
+.produto3:hover{
+    border: 2px groove rgb(0, 0, 0); /* Muda a cor da borda */
+}
+
+.produto4{
+    position: absolute;
+    width: 608px;
+    height: 198px;
+    left: -50px;
+    top: 941px;
+    
+    border: 1px solid rgba(66, 33, 11, 0.2);
+    border-radius: 20px;
+}
+
+.produto4:hover{
+    border: 2px groove rgb(0, 0, 0); /* Muda a cor da borda */
+}
+
+.produto5{
+    position: absolute;
+    width: 608px;
+    height: 198px;
+    left: 571px;
+    top: 307px;
+    
+    border: 1px solid rgba(66, 33, 11, 0.2);
+    border-radius: 20px;
+}
+
+.produto5:hover{
+    border: 2px groove rgb(0, 0, 0); /* Muda a cor da borda */
+}
+
+.produto6{
+    position: absolute;
+    width: 608px;
+    height: 198px;
+    left: 571px;
+    top: 519px;
+    
+    border: 1px solid rgba(66, 33, 11, 0.2);
+    border-radius: 20px;
+}
+
+.produto6:hover{
+    border: 2px groove rgb(0, 0, 0); /* Muda a cor da borda */
+}
+
+.produto7{
+    position: absolute;
+    width: 608px;
+    height: 198px;
+    left: 571px;
+    top: 730px;
+    
+    border: 1px solid rgba(66, 33, 11, 0.2);
+    border-radius: 20px;
+}
+
+.produto7:hover{
+    border: 2px groove rgb(0, 0, 0); /* Muda a cor da borda */
+}
+
+.produto8{
+    position: absolute;
+    width: 608px;
+    height: 198px;
+    left: 571px;
+    top: 941px;
+    
+    border: 1px solid rgba(66, 33, 11, 0.2);
+    border-radius: 20px;
+}
+
+.produto8:hover{
+    border: 2px groove rgb(0, 0, 0); /* Muda a cor da borda */
+}
+
+/* BODY */
+
+/* HEADER-LEFT */
+
+.retadivisoriarod{
+    position: absolute;
+    width: 1200px;
+    height: 0px;
+    left: 75px;
+    top: 1210px;
+    
+    border: 2px solid #42210B;
+}
+
+.header-left {
+    position: absolute;
+    width: 100%;
+    height: 173px;
+    left: 0px;
+    top: 1213px;
+    
+    background: #AAAAAA;
+    margin-right: 10px;
+}
+
+.legal{
+    position: absolute;
+    width: 251px;
+    height: 126px;
+    left: 110px;
+    top: 1236px;
+
+    font-family: Ruda;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+    color: #000000;
+   
+}
+
+.ajuda{
+    position: absolute;
+    width: 113px;
+    height: 59px;
+    left: 503px;
+    top: 1236px;
+
+    font-family: Ruda;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.copyright{
+    position: absolute;
+    width: 410px;
+    height: 14px;
+    left: 503px;
+    top: 1338px;
+
+    font-family: Ruda;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+    color: rgba(0, 0, 0, 0.52);
+}
+
+.redessociais{
+    position: absolute;
+    width: 101px;
+    height: 29px;
+    left: 1100px;
+    top: 1265px;
+    
+    font-family: Ruda;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    
+    color: #000000;
+}
+
+.imgface{
+    position: absolute;
+    width: 70px;
+    height: 58px;
+    left: 1078px;
+    top: 1300px;
+    object-fit: cover;
+    opacity: 60%;
+}
+
+.imginsta{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1179px;
+    top: 1304px;
+    object-fit: cover;
+    opacity: 60%;
+}
+
+.imgtele{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1260px;
+    top: 1304px;
+    object-fit: cover;
+    opacity: 60%;
+}
+}
+
+/* -------------------------------------------------------------------------------------------------- */
+
+@media screen and (min-width: 1367px) {
+
+/* HEADER */
+.header{
+    position: absolute;
+    width: 100%;
+    height: 187px;
+    left: 0px;
+    top: 0px;
+    opacity: 100%;
+
+    background: rgba(160, 95, 52, 0.29);
+}
+
+.retamarrom{
+    position: absolute;
+    width: 198px;
+    height: 17px;
+    left: 0px;
+    top: 87px;
+    
+    background: #42210B;
+    border-radius: 0px 6px 6px 0px;
+}
+
+.logo{
+    position: relative;
+    width: 150px;
+    height: 170px;
+    left: 200px;
+    top: 10px;
+    object-fit: cover;
+}
+
+.retaamarela{
+    position: absolute;
+    width: 1231px;
+    height: 17px;
+    left: 352px;
+    top: 87px;
+    
+    background: #DAA520;
+    border-radius: 6px 0px 0px 6px;
+}
+
+.barrapesquisa{
+    position: absolute;
+    width: 478px;
+    height: 31px;
+    left: 481px;
+    top: 149px;
+    
+    background: rgba(145, 145, 145, 0.322);
+    border-radius: 10px;
+    border-style: hidden;
+
+    font-family: Ruda;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.bProdutos{
+    position: absolute;
+    width: 81px;
+    height: 18px;
+    left: 990px;
+    top: 157px;
+    
+    font-family: Ruda;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+    
+    color: #42210B;
+}
+
+.bContato{
+    position: absolute;
+    width: 68px;
+    height: 23px;
+    left: 1141px;
+    top: 154px;
+    
+    font-family: Ruda;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    text-decoration: none;
+
+    
+    color: #42210B;
+}
+
+.bQuemsomos{
+    position: absolute;
+    width: 113px;
+    height: 23px;
+    left: 1278px;
+    top: 154px;
+    
+    font-family: Ruda;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    text-decoration: none;
+    
+    color: #42210B;
+}
+
+.bag{
+    position: absolute;
+    width: 35px;
+    height: 37px;
+    left: 1450px;
+    top: 140px;
+}
+
+.retadivisoria{
+    position: absolute;
+    width: 1430px;
+    height: 0px;
+    left: 75px;
+    top: 187px;
+
+    border: 2px solid #42210B;
+}
+/* HEADER */
+
+/* BODY */
+.nossocardapio{
+    position: absolute;
+    width: 484px;
+    height: 83px;
+    left: 558px;
+    top: 205px;
+    
+    font-family: Sail;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 83px;
+
+    color: #C81912;
+    
+}
+
+.card{
+    position: absolute;
+    left: 235px;
+    
+}
+
+.iproduto{
+    position: relative;
+    width: 175px;
+    height: 169px;
+    left: 13px;
+    top: 14px;
+    object-fit: cover;
+
+    border-radius: 10px;
+}
+
+.tit{
+    position: absolute;
+    width: 391px;
+    height: 22px;
+    left: 200px;
+    top: 0px;
+
+
+    font-family: Ruda;
+    font-style: bold;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #42210B;
+
+}
+
+.infop{
+    position: absolute;
+    width: 402px;
+    height: 166px;
+    left: 200px;
+    top: 7px;
+
+    font-family: Ruda;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #42210B;
+}
+
+.preco{
+    position: absolute;
+    width: 76px;
+    height: 22px;
+    left: 200px;
+    top: 145px;
+
+    font-family: Ruda;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #42210B;
+}
+
+.produto1{
+    position: absolute;
+    width: 608px;
+    height: 198px;
+    left: -50px;
+    top: 307px;
+
+    border: 1px solid rgba(66, 33, 11, 0.2);
+    border-radius: 20px;
+}
+
+.produto1:hover{
+    border: 2px groove rgb(0, 0, 0); /* Muda a cor da borda */
+}
+
+.produto2{
+    position: absolute;
+    width: 608px;
+    height: 198px;
+    left: -50px;
+    top: 519px;
+
+    border: 1px solid rgba(66, 33, 11, 0.2);
+    border-radius: 20px;
+}
+
+.produto2:hover{
+    border: 2px groove rgb(0, 0, 0); /* Muda a cor da borda */
+}
+
+.produto3{
+    position: absolute;
+    width: 608px;
+    height: 198px;
+    left: -50px;
+    top: 730px;
+    
+    border: 1px solid rgba(66, 33, 11, 0.2);
+    border-radius: 20px;
+}
+
+.produto3:hover{
+    border: 2px groove rgb(0, 0, 0); /* Muda a cor da borda */
+}
+
+.produto4{
+    position: absolute;
+    width: 608px;
+    height: 198px;
+    left: -50px;
+    top: 941px;
+    
+    border: 1px solid rgba(66, 33, 11, 0.2);
+    border-radius: 20px;
+}
+
+.produto4:hover{
+    border: 2px groove rgb(0, 0, 0); /* Muda a cor da borda */
+}
+
+.produto5{
+    position: absolute;
+    width: 608px;
+    height: 198px;
+    left: 571px;
+    top: 307px;
+    
+    border: 1px solid rgba(66, 33, 11, 0.2);
+    border-radius: 20px;
+}
+
+.produto5:hover{
+    border: 2px groove rgb(0, 0, 0); /* Muda a cor da borda */
+}
+
+.produto6{
+    position: absolute;
+    width: 608px;
+    height: 198px;
+    left: 571px;
+    top: 519px;
+    
+    border: 1px solid rgba(66, 33, 11, 0.2);
+    border-radius: 20px;
+}
+
+.produto6:hover{
+    border: 2px groove rgb(0, 0, 0); /* Muda a cor da borda */
+}
+
+.produto7{
+    position: absolute;
+    width: 608px;
+    height: 198px;
+    left: 571px;
+    top: 730px;
+    
+    border: 1px solid rgba(66, 33, 11, 0.2);
+    border-radius: 20px;
+}
+
+.produto7:hover{
+    border: 2px groove rgb(0, 0, 0); /* Muda a cor da borda */
+}
+
+.produto8{
+    position: absolute;
+    width: 608px;
+    height: 198px;
+    left: 571px;
+    top: 941px;
+    
+    border: 1px solid rgba(66, 33, 11, 0.2);
+    border-radius: 20px;
+}
+
+.produto8:hover{
+    border: 2px groove rgb(0, 0, 0); /* Muda a cor da borda */
+}
+
+/* BODY */
+
+/* HEADER-LEFT */
+
+.retadivisoriarod{
+    position: absolute;
+    width: 1430px;
+    height: 0px;
+    left: 75px;
+    top: 1210px;
+    
+    border: 2px solid #42210B;
+}
+
+.header-left {
+    position: absolute;
+    width: 100%;
+    height: 173px;
+    left: 0px;
+    top: 1213px;
+    
+    background: #AAAAAA;
+    margin-right: 10px;
+}
+
+.legal{
+    position: absolute;
+    width: 251px;
+    height: 126px;
+    left: 160px;
+    top: 1236px;
+
+    font-family: Ruda;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+    color: #000000;
+   
+}
+
+.ajuda{
+    position: absolute;
+    width: 113px;
+    height: 59px;
+    left: 553px;
+    top: 1236px;
+
+    font-family: Ruda;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.copyright{
+    position: absolute;
+    width: 410px;
+    height: 14px;
+    left: 553px;
+    top: 1338px;
+
+    font-family: Ruda;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+    color: rgba(0, 0, 0, 0.52);
+}
+
+.redessociais{
+    position: absolute;
+    width: 101px;
+    height: 29px;
+    left: 1150px;
+    top: 1265px;
+    
+    font-family: Ruda;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    
+    color: #000000;
+}
+
+.imgface{
+    position: absolute;
+    width: 70px;
+    height: 58px;
+    left: 1128px;
+    top: 1300px;
+    object-fit: cover;
+    opacity: 60%;
+}
+
+.imginsta{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1229px;
+    top: 1304px;
+    object-fit: cover;
+    opacity: 60%;
+}
+
+.imgtele{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1310px;
+    top: 1304px;
+    object-fit: cover;
+    opacity: 60%;
+}
+}
